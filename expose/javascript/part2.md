@@ -10,7 +10,7 @@
 9. The code will return an error. This is because the variable i is delcared using let i. Thus, the variable i will die after the for loop ends. thus, the code will return an error.
 10. The code will print 3. This is because the value length has been set before the for loop (const length = prices.length). Thus, since the array length is 3 (based on the input). It will print the value of 3.
 11. The code will return an array of the discountedPrice. The array that will be returned is [50, 100, 150]. This is because the input array is [100, 200, 300] and the discount for each elements in the array is 50%. Thus, the array that will be returned is [50, 100, 150]. Although the discountedPrice array is declared as const discountedPrice, we can still add some elements to the array. A const array means that the array cannot be reassigned. Thus, adding elements are still valid.
-12. A) student.name
+12. A) student.name \
     B) student['Grad year']
     C) student.greeting()
     D) student['Favorite Teacher'].name
